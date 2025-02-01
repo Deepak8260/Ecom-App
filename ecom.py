@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def main():
-    st.title('This is app for ecom i am creating')
+    st.title("Deepak's ecom app")
     st.sidebar.title('u can upload your files here')
 
     upload = st.sidebar.file_uploader('Upload your file here', type=['csv','xlsx'])
